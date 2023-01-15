@@ -100,3 +100,25 @@ int main() {
         }
     }
 }
+
+// int main() {
+//     torch::jit::script::Module module;
+//     cv::VideoCapture cap(1);
+
+//     if (!cap.isOpened()) {
+//         std::cout << "Cannot open camera\n";
+//         return 1;
+//     }
+
+//     cv::Mat frame;
+//     cv::Mat gray;
+//     while (true) {
+//         bool ret = cap.read(frame);
+//         cv::cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
+//         imshow("live", frame);
+
+//         if (cv::waitKey(1) == 'q') {
+//             break;
+//         }
+//     }
+// }
