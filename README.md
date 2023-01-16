@@ -1,2 +1,2 @@
-# 2023-01-12-DGGAN-in-pytorch-cpp-and-CMake-practice
-DCGAN with pytorch C++ and cmake practice by implementing a header only library and linking it by our app/main.cpp
+# 2023-01-12-opencv-pytorch-integration-in-cpp-and-CMake-practice
+Trial to integrate opencv and pytorch C++. This also serve as a cmake practice.
